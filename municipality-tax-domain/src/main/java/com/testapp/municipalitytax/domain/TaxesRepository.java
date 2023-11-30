@@ -3,7 +3,7 @@ package com.testapp.municipalitytax.domain;
 import java.time.LocalDate;
 import java.util.List;
 
-public interface TaxesRepository {
+public interface TaxesRepository  {
 
   MunicipalityTax save(MunicipalityTax municipalityTax);
 
@@ -12,4 +12,5 @@ public interface TaxesRepository {
   List<MunicipalityTax> findByMunicipalityAndDate(String municipality, LocalDate date);
 
   List<MunicipalityTax> getAllMunicipalityTaxes();
+
 }

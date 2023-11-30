@@ -1,5 +1,6 @@
 spring:
   flyway:
+    schemas: PUBLIC
     locations: classpath:db/migration
   datasource:
     username: root

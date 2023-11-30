@@ -11,4 +11,5 @@ public interface TaxesService {
   TaxResponse findTax(String municipality, String date);
 
   TaxListResponse getAllMunicipalityTaxes();
+
 }
